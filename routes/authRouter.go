@@ -1,7 +1,7 @@
 package routes
 
 import (
-	controller "go-jwt-auth/controllers"
+	controller "github.com/folafunmi-db/go-jwt-auth/controllers"
 
 	"github.com/gin-gonic/gin"
 )

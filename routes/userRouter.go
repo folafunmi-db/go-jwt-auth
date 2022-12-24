@@ -1,8 +1,8 @@
 package routes
 
 import (
-	controller "go-jwt-auth/controllers"
-	"go-jwt-auth/middleware"
+	controller "github.com/folafunmi-db/go-jwt-auth/controllers"
+	"github.com/folafunmi-db/go-jwt-auth/middleware"
 
 	"github.com/gin-gonic/gin"
 )

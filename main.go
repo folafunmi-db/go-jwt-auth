@@ -1,9 +1,9 @@
 package main
 
 import (
-	routes "go-jwt-auth/routes"
 	"os"
 
+	"github.com/folafunmi-db/go-jwt-auth/routes"
 	"github.com/gin-gonic/gin"
 )
 
@@ -24,7 +24,7 @@ func main() {
 		c.JSON(200, gin.H{"success": "Access granted for api-1"})
 	})
 
-	router.GET("api-2", func(ctx *gin.Context) {
+	router.GET("api-2", func(c *gin.Context) {
 		c.JSON(200, gin.H{"success": "Access granted for api-2"})
 	})
 
